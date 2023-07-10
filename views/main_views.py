@@ -2,7 +2,7 @@ from flask import Blueprint
 
 #Blueprint 클래스를 통해 임의의 객체를 만든다
 #bp = Blueprint('앱 내부에서 부를 별명', 전달되는 파일명, url_prefix='/')
-bp = Blueprint('main', __name__, url_prefix='/main')
+bp = Blueprint('main', __name__, url_prefix='/')
 
 
 @bp.route('/')
